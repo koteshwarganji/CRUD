@@ -1,0 +1,96 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form [formGroup]="empForm">
+                <div class="form-group">
+                    <input type="number" class="form-control" formControlName="EmployeeId" placeholder="Employee Id">
+                </div>
+                <p *ngIf="empForm.controls.EmployeeId.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" formControlName="FullName" placeholder="Enter FullName">
+                </div>
+                <p *ngIf="empForm.controls.FullName.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <input type="number" class="form-control" formControlName="Salary" placeholder="Enter Salary Per Year in Lakhs">
+                </div>
+                <p *ngIf="empForm.controls.Salary.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" formControlName="Designation" placeholder="Enter Designation">
+                </div>
+                <p *ngIf="empForm.controls.Designation.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <input type="number" class="form-control" formControlName="MobileNo" placeholder="Enter Mobile Number">
+                </div>
+                <p *ngIf="empForm.controls.MobileNo.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <input type="Email" class="form-control" formControlName="Email" placeholder="Enter Email">
+                </div>
+                <p *ngIf="empForm.controls.Email.errors" class="alert alert-danger">This field is required!</p>
+                <div class="form-group">
+                    <fieldset formGroupName="Address">
+                        <div class="form-group">
+                            <input type="text" class="form-control" formControlName="City" placeholder="Enter City">
+                        </div>
+                        <p *ngIf="empForm.controls.Address.get('City')?.errors" class="alert alert-danger">This field is required</p>
+                        <div class="form-group">
+                            <input type="text" class="form-control" formControlName="State" placeholder="Enter State">
+                        </div> 
+                        <p *ngIf="empForm.controls.Address.get('City')?.errors" class="alert alert-danger">This field is required</p>
+                    </fieldset>
+                  </div>
+                  <div class="form-group" *ngIf="!enableUpdatebtn">
+                      <button type="submit" class="btn btn-primary" [disabled]="!empForm.valid" (click)="submitForm()">Submit</button>
+                  </div>
+                  <div class="form-group" *ngIf="enableUpdatebtn">
+                    <button type="submit" class="btn btn-primary" [disabled]="!empForm.valid" (click)="updateEmployee()">Update</button>
+                </div>
+            </form>
+            <p *ngIf="successMessage" class="alert alert-success text-center">{{successMessage}}</p>
+            <p *ngIf="errorMessage" class="alert alert-danger text-center">{{errorMessage}}</p>
+        </div>
+    </div>
+</div>
+
+<!-- {{empForm.value| json}} -->
+
+
+<div class="container" *ngIf="empArr.length>0">
+    <div class="row">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered table-hover table-sm table-striped">
+                <thead>
+                    <th>S.No</th>
+                    <th>EmployeeId</th>
+                    <th>FullName</th>
+                    <th>Salary</th>
+                    <th>Designation</th>
+                    <th>MobileNo</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let emp of empArr;let i=index">
+                        <td>{{i+1}}</td>
+                        <td>{{emp.EmployeeId}}</td>
+                        <td>{{emp.FullName}}</td>
+                        <td>{{emp.Salary}}</td>
+                        <td>{{emp.Designation}}</td>
+                        <td>{{emp.MobileNo}}</td>
+                        <td>{{emp.Email}}</td>
+                        <td>{{emp.Address.City}}</td>
+                        <td>{{emp.Address.State}}</td>
+                        <td>
+                            <button type="button" class="btn btn-danger" (click)="deleteEmployee(emp.EmployeeId)">Delete</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-info" (click)="readById(emp.EmployeeId)">Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

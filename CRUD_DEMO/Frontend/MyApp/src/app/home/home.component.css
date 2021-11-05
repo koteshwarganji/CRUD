@@ -1,0 +1,11 @@
+input{
+    border-bottom: 2px solid black;
+    font-style: oblique;
+}
+.alert{
+    font-style: oblique;
+}
+tr,td,th{
+    border : 2px solid black;
+    font-style: oblique;
+}

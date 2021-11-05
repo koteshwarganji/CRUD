@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form #loginForm="ngForm" (ngSubmit)="submit()">
+                <div class="form-group">
+                    <input type="text" class="form-control" required placeholder="Enter Username" name="username" [(ngModel)]="username" #uName="ngModel">
+                </div>
+                <div *ngIf="uName.touched && uName.invalid" class="alert alert-danger">
+                    Required Field!
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" required placeholder="Enter Password" name="password" [(ngModel)]="password" #uPass="ngModel">
+                </div>
+                <div *ngIf="uPass.touched && uPass.invalid" class="alert alert-danger">
+                    Required Field!
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block" [disabled]="!loginForm.valid">Login</button>
+                </div>
+            </form>
+            <div *ngIf="errorMessage" class="alert alert-danger text-center">
+                {{errorMessage}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- {{loginForm.value | json }} -->
