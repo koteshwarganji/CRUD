@@ -1,0 +1,62 @@
+[
+    {
+        "EmployeeId" : 1001,
+        "FullName" : "MS Dhoni",
+        "Salary" : 10,
+        "Designation" : "Senior Consultant",
+        "MobileNo" : 8192124567,
+        "Email" : "Dhoni07@gmail.com",
+        "Address" : {
+            "City" : "Ranchi",
+            "State" : "Jharakhand"
+        }
+    },
+    {
+        "EmployeeId" : 1002,
+        "FullName" : "Virat Kohli",
+        "Salary" : 9,
+        "Designation": "Associate Senior Consultant",
+        "MobileNo" : 9189341234,
+        "Email" : "Virat.kohli@gmail.com",
+        "Address" : {
+            "City" : "Bangalore",
+            "State" : "Karnataka"
+        }
+    },
+    {
+        "EmployeeId" : 1003,
+        "FullName" : "KL Rahul",
+        "Salary" : 7,
+        "Designation": "Technology Analyst",
+        "MobileNo" : 9965761234,
+        "Email" : "Klrahul@gmail.com",
+        "Address" : {
+            "City" : "Mohali",
+            "State" : "Punjab"
+        }
+    },
+    {
+        "EmployeeId" : 1004,
+        "FullName" : "Bhuvaneshwar Kumar",
+        "Salary" : 7,
+        "Designation": "Technology Analyst",
+        "MobileNo" : 8816754321,
+        "Email" : "Bhuvi.Kumar@gmail.com",
+        "Address" : {
+            "City" : "Hyderabad",
+            "State" : "Telangana"
+        }
+    },
+    {
+        "EmployeeId" : 1005,
+        "FullName" : "Yazvendra Chahal",
+        "Salary" : 6,
+        "Designation": "System Engineer",
+        "MobileNo" : 7768193421,
+        "Email" : "Yazvendra.Chahal@gmail.com",
+        "Address" : {
+            "City" : "Bangalore",
+            "State" : "Karnataka"
+        }
+    }   
+]

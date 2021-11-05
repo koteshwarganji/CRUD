@@ -1,0 +1,64 @@
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:66:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:75:20
+Thu Nov 04 2021 - Error: Could not delete the data/Employee not found
+    at Object.service.deleteEmployee (C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\service\data.js:23:322)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\91630\Desktop\CRUD_DEMO\Backend\src\routes\routing.js:25:270
